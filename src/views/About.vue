@@ -18,6 +18,11 @@
     <br>
 
     <input type="text" name="field" v-validate="'falsy'">
+
+  <hr>
+
+  <input type="text" v-validate="'alpha'" data-vv-as="First Name" name="first_name">
+  
   </div>
 </template>
 
